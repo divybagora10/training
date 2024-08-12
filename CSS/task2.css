@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header
+{
+    height: 100px;
+    width: auto;
+    background-color: cornsilk;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.icon i {
+    font-size: 30px;
+}
+
+.dream {
+    margin-top: 20px;
+}
+.dream p{
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+
+.menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+}
+
+#dropdown {
+    border: none;
+    background-color: transparent;
+}
+#dropdown1{
+    border: none;
+    background-color: transparent;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+#donate {
+    color: azure;
+    background-color: rgb(186, 61, 86);
+    height: 40px;
+    width: 120px;
+}
+
+
+.image
+{
+    height: 600px;
+    width: 100%;
+    width: auto;
+    background-color: cornflowerblue; 
+    background-image: url("/WhatsApp\ Image\ 2024-08-07\ at\ 14.08.38_57b3b577.jpg");
+    background-size: cover;
+     background-position: center;     
+    background-repeat: no-repeat;
+    object-fit: cover; 
+}
+
+.footer{
+    height: 100px;
+    width: auto;
+    background-color: antiquewhite;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.heading{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#email {
+    height: 25px;
+    width: 200px;
+    margin-right: 50px;
+}
+#subs{
+    margin-right: 20px;
+    height: 30px;
+    width: 120px;
+    background-color: rgb(82, 193, 175);
+}
+
+
+.image{
+    color: white;
+    text-align:right
+    
+}
+.content{
+    margin-right: 80px;
+}
+
+#bt{
+    height: 40px;
+    width: 100px;
+    margin-top: 25%;
+    background: transparent;
+    color: azure;
+    border: 2px solid white;
+
+}
+
+
