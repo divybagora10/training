@@ -110,13 +110,18 @@
     
 }
 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
     margin-right: 80px;
 }
 
 #bt{
     height: 40px;
     width: 100px;
-    margin-top: 25%;
+    margin-top: 25px;
     background: transparent;
     color: azure;
     border: 2px solid white;
